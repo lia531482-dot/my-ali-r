@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Ali R</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg,#080510,#25103c,#080510);
+    color: white;
+    font-family: Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: #191127;
+    border: 1px solid #963cff;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 35px #6924a855;
+}
+
+.logo {
+    color: #c58aff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.profile {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #b66aff;
+  box-shadow: 0 0 25px #812bd8;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+h1 {
+    color: #d6a7ff;
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.subtitle {
+    color: #aaa;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.info {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.info-box {
+    background: #291b3d;
+    border: 1px solid #50316d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    overflow-wrap: anywhere;
+}
+
+.info-box span {
+    color: #cb8aff;
+}
+
+.btn {
+    display: block;
+    background: linear-gradient(90deg,#7426bc,#ad55ff);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 18px;
+}
+
+.footer {
+    color: #888;
+    font-size: 12px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">MY ALI R</div>
+
+<div class="profile">
+  <img src="ali.jpg" alt="عکس علی">
+</div>
+
+    <h1>ALI</h1>
+
+    <p class="subtitle">
+        Welcome To My Personal Website
+    </p>
+
+    <div class="info">
+
+        <div class="info-box">
+         <span>نام:</span> Ali nsiri
+        </div>
+        
+<div class="info-box">
+            📸 <span>اینستاگرام:</span>
+            8h_a3a
+        </div>
+
+        <div class="info-box">
+            📱 <span>شماره موبایل:</span>
+            09017293475/
+            09936243151
+        </div>
+
+    </div>
+
+    <a class="btn"
+       href="https://instagram.com/YOUR_INSTAGRAM"
+       target="_blank"
+       rel="noopener noreferrer">
+       ورود به اینستاگرام
+    </a>
+
+    <div class="footer">
+        © 2026 My Ali R
+    </div>
+
+</div>
+
+</body>
+</html>
